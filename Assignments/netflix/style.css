@@ -1,0 +1,89 @@
+body{
+    background-image: url(./img/background_image.jpg);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.content{ 
+    /* border: 2px solid green; */
+    margin: 20px 50px 10px;
+    background-color: rgba(0, 0, 0, 0.445);
+    
+}
+
+.p-element{
+    text-align: center;
+    color: white;
+}
+
+.container{
+    width: 350px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.811);
+    padding: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+#yorum{
+    width: 280px;
+    height: 70px;
+    background-color: white;
+}
+#yorum4{
+    border: 1px solid red;
+    width: 100px;
+    height: 35px;
+    border-radius: 40px;
+    margin: auto;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+/* for submit button */
+div#yorum4 input{ 
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    border-style: none;
+    font-size: large;
+
+}
+div#yorum4 input:hover {
+    color: red;
+    background-color: white;
+    text-decoration: underline;
+}
+
+#name{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+
+#age{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+}
+#email{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#content-type{
+    width: 300px;
+    height: 30px;
+    margin-top: 8px;
+}

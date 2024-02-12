@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container, .container1, .container2,.container3,.container4,.container5,.container6,.container7,.container8 {
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container,
+.container8 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/bg.jpg);
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.baslik {
+  width: 35%;
+  height: 19vh;
+  background-color: black;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  outline: 0.5rem inset purple;
+  outline-offset: 1.2rem;
+  color: white;
+  font-size: 50px;
+  font-family: "Lato", sans-serif;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.5rem;
+}
+
+.baslik1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  padding: 4rem 0 1rem;
+}
+
+.paragraf {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  padding: 1rem 0 3.5rem;
+
+  /* margin: 0 4rem 3.5rem; */
+}
+.container2 {
+  width: 100%;
+  height: 80vh;
+  background-image: url(./img/bg2.jpg);
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#img1 {
+  width: 30%;
+  height: 14%;
+}
+
+.container3,
+.container7 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.paragraf2 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.8rem;
+  padding: 1rem 3rem 3rem;
+}
+
+.container4 {
+  width: 100%;
+  height: 80vh;
+  background-image: url(./img/bg3.jpg);
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.baslik2 {
+  width: 49%;
+  height: 10vh;
+  background-color: black;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Lato", sans-serif;
+  /* margin: auto; */
+  /* text-align: center; */
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.container6 {
+  width: 100%;
+  height: 80vh;
+  background-image: url(./img/bg4.jpg);
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.baslik3 {
+  width: 38%;
+  height: 12vh;
+  background-color: black;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+  color: white;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.4rem;
+  font-size: 2.5rem;
+}
+
+.baslik5 {
+  width: 55%;
+  height: 14vh;
+  background-color: black;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+  color: white;
+  font-size: 48px;
+  font-family: "Lato", sans-serif;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.5rem;
+}
+.baslik4 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  padding: 3.4rem 0 1rem;
+}
+
