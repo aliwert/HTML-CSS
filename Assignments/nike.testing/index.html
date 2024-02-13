@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      style="background-size: cover"
+      rel="shortcut icon"
+      href="./img/logo.jpg"
+    />
+    <title>Nike</title>
+  </head>
+  <body>
+    <section class="home">
+      <header>
+        <a href="" class="logo">Shoes</a>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>Just <span>Do It!</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            quasi recusandae ad, quia autem nulla odio libero distinctio neque
+            porro maiores temporibus ullam, blanditiis voluptate tenetur. Modi
+            eaque nobis impedit magnam! Libero dignissimos odio dolor doloremque
+            pariatur repellendus a laudantium expedita? Quae reprehenderit
+            praesentium itaque labore ipsam incidunt aliquid veniam?
+          </p>
+          <a href="https://www.nike.com/tr/" target="_blank"
+            >View all products</a
+          >
+        </div>
+        <div class="imgBox">
+          <img src="./img/4.jpg" alt="" class="sports" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="./img/5.jpg"
+            onclick="imgSlider('./img/5.jpg'); changeColor('#FE641A');"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/6.jpg"
+            onclick="imgSlider('./img/6.jpg'); changeColor('#C0062D');"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/4.jpg"
+            onclick="imgSlider('./img/4.jpg'); changeColor('#0e8aff');"
+          />
+        </li>
+      </ul>
+    </section>
+
+    <script src="js.js"></script>
+  </body>
+</html>
