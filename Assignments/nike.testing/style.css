@@ -14,7 +14,7 @@ section {
   justify-content: space-between;
   align-items: center;
   background: #0e8aff;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 header {
   position: absolute;
