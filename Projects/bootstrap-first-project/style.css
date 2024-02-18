@@ -1,0 +1,42 @@
+.logo {
+  background: url(./assets/img/banner.jpeg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #66cded;
+  height: 100vh;
+}
+.photo img {
+  width: 150px;
+}
+/*
+.fa-brands {
+  width: 15px;
+  height: 15px;
+} */
+/* 
+ */
+
+.ourteam img {
+  width: 250px;
+  border: 8px solid gray;
+}
+.ourteam a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* background-color: #333; */
+  line-height: 40px;
+}
+.col img {
+  /* border: 2px solid red; */
+  max-height: 70px;
+}
+.contactus {
+  background: url(./assets/img/shutterstock-93984988.jpeg) no-repeat center;
+  background-size: cover;
+  object-fit: cover;
+  color: coral;
+}
