@@ -9,7 +9,7 @@
 
 .container, .container1, .container2,.container3,.container4,.container5,.container6,.container7,.container8 {
   position: relative;
-  opacity: 0.50;
+  opacity: 0.40;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
