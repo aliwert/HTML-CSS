@@ -28,7 +28,7 @@ body {
   border-radius: 10px;
 }
 #button {
-  border: 1px solid;
+  border: 1.5px solid;
   opacity: 0.8;
   background-color: gray;
   width: 15rem;
