@@ -1,0 +1,102 @@
+body {
+  height: 100vh;
+  background-color: black;
+}
+.header {
+  background-color: black;
+  border-bottom: 5px solid red;
+  height: 10vh;
+  /* height: 10%; */
+}
+.container {
+  width: 80%;
+  /* background-color: aqua; */
+  margin: auto;
+  overflow: hidden;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: bisque; */
+  list-style-type: none;
+}
+.list a {
+  text-decoration: none;
+  color: white;
+  font-family: "Audiowide", sans-serif;
+}
+
+#container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  width: 350px;
+}
+.branding {
+  color: white;
+  font-family: "Audiowide", sans-serif;
+}
+.spanColor {
+  color: red;
+}
+
+.main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+    url("./banner.jpg");
+  height: 90vh;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 60px;
+  margin: 200px 0 10px;
+  font-family: "Audiowide", sans-serif;
+}
+.main p, .main h2 {
+  font-family: "Audiowide", sans-serif;
+  font-size: 30px;
+}
+.main a {
+  text-decoration: none;
+  color: bisque;
+}
+
+.main img {
+  margin-top: 50px;
+  width: 150px;
+}
+
+#about, #contact {
+  /* background-color: black; */
+  color: white;
+}
+#about h2, #contact h2 {
+  font-size: 30px;
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  color: red;
+}
+
+table{
+  margin: auto;
+  margin-top: 30px;
+}
+table tr{
+  line-height: 40px;
+}
+table p{
+  text-align: left;
+}
+.icon{
+  font-size: 40px;
+  margin-right: 10px;
+}
+.label{
+  font-size: 20px;
+  color: white;
+  font-family: "Arial", sans-serif;
+}
