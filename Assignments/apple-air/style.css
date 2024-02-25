@@ -44,11 +44,11 @@ body {
   height: 30px;
   background-color: #2175f5;
   border: none;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 .storage button {
   width: 5rem;
-  border-radius: 25px;
+  border-radius: 20px;
   background-color: inherit;
   border: 0.2px solid;
   margin: 5px;
