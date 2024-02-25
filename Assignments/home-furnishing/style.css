@@ -98,13 +98,6 @@ body {
   /* border-bottom: px dashed black; */
   background-image: linear-gradient(to right, #ffecd2 0%, #fda085 100%);
 }
-.conta {
-  /* border: 2px solid red;
-  display: flex;
-  align-items: center;
-  justify-content: center; */
-  /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
-}
 .icon {
   margin-right: 2rem;
 }
