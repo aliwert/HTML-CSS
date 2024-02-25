@@ -81,7 +81,7 @@ body {
   font-size: xx-large;
 }
 .fa-solid fa-dollar-sign {
-  border: 2px solid blue;
+  border: 2.5px solid blue;
 }
 .card button:hover {
   cursor: pointer;
